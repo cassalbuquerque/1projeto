@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+}
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #2E948A;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    align-items: right;
+    align-self: flex-end;
+    justify-content: space-between;
+    display: flex;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    display: inline;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.logo {    
+    text-align: left;
+}
+
+.menu {
+    align-items: right;
+    align-self: flex-end;
+}
+
+.inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao1 {
+    width: 20%;
+}
+
+.titulo {
+    color: crimson;
+}
+
+.btn-white {
+    background-color: white;
+    color: crimson;
+    border: 2px solid crimson;
+    box-shadow: crimson;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.sec-meio1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-meio2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.depoimentos {
+    width: 100%;
+    margin-top: 7.438rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 9.688rem;
+  }
+
+.caixa1 {
+    width: 31.25rem;
+    display: flex;
+    align-items: center;
+    gap: 2.313rem;
+    padding-bottom: 5.375rem;
+    font-family: 'Nunito';
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    color: black;
+    font-weight: 300;
+}
+
+.caixa2 {
+    width: 31.25rem;
+    display: flex;
+    align-items: center;
+    gap: 2.313rem;
+    font-family: 'Nunito';
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    color: black;
+    font-weight: 300;
+}
+
+.caixa3 {
+    width: 31.25rem;
+    display: flex;
+    align-items: center;
+    gap: 2.313rem;
+    padding-bottom: 5.375rem;
+    font-family: 'Nunito';
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    color: black;
+    font-weight: 300;
+}
+
+.caixa4 {
+    width: 31.25rem;
+    display: flex;
+    align-items: center;
+    gap: 2.313rem;
+    font-family: 'Nunito';
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    color: black;
+    font-weight: 300;
+}
+
+.depoimentos h4 {
+    font-weight: 400;
+}
+
+.sec-baixo {
+    position: absolute;
+    width: 530px;
+    height: 43px;
+    left: 128px;
+    top: 2351px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;    
+    
+    color: #009688;
+}
+
+textarea {
+    resize: none;
+    border-radius: 10px;
+}
+
+button {
+    background-color: white;
+    color: green;
+    border: 2px solid white;
+    box-shadow: crimson;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 576px) {
+    body {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        max-width: 1180px;
+    }
+}
